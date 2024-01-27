@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://dls.yt.uz/e-imzo.js"></script>
+    <script src="http://dls.yt.uz/e-imzo-client.js"></script>
+</head>
+<body>
+    <form name=testform>
+        <label id="message"></label>
+        Выберите ключ <br />
+        <select name="key" onchange="cbChanged(this)"></select><br />
+        Текст для подписи <br />
+        <textarea name="data"></textarea><br />
+        <button onclick="sign()" type="button">Подписать</button><br />
+        ID ключа <label id="keyId"></label><br />
+        Подписанный документ PKCS#7<br />
+        <textarea name="pkcs7"></textarea><br />
+    </form>
+    <script src="eimzo.js"></script>
+    
+</body>
+</html>

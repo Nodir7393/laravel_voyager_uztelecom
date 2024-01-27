@@ -1,0 +1,9 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/teamprodev/laravel_dst_eimzo"
+        }
+    ],
+    "teamprodev/laravel_dst_eimzo": "dev-main"
+}

@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="CodeceptionConfigurationType" factoryName="Codeception">
+    <PhpTestRunnerSettings directory="$PROJECT_DIR$/tests/acceptance" method="" />
+    <method v="2" />
+  </configuration>
+</component>
